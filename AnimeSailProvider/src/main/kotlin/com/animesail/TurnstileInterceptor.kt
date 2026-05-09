@@ -89,7 +89,7 @@ class TurnstileInterceptor(private val targetCookie: String = "_as_turnstile") :
         }
 
         var cookieAcquired = false
-        for (i in 0 until 60) {
+        for (i in 0 until 15) {
             Thread.sleep(1000)
             val cookies = cookieManager.getCookie(domainUrl) ?: ""
             if (cookies.contains(targetCookie)) {
