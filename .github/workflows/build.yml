@@ -48,14 +48,12 @@ jobs:
 
       - name: Build Plugins
         working-directory: ${{ github.workspace }}/src
-        env:
-          DUBBINDO_PASSWORD: ${{ secrets.DUBBINDO_PASS }}
-          DUBBINDO_USERNAME: ${{ secrets.DUBBINDO_USER }}
         run: |
           chmod +x gradlew
           ./gradlew make makePluginsJson
           cp **/build/*.cs3 ${{ github.workspace }}/builds/
           cp build/plugins.json ${{ github.workspace }}/builds/
+          cp repo.json ${{ github.workspace }}/builds/ || true
 
       - name: Push builds
         working-directory: ${{ github.workspace }}/builds
