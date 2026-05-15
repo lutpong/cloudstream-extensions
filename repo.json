@@ -1,0 +1,9 @@
+{
+    "name": "Lutpong Repo",
+    "iconUrl": "https://raw.githubusercontent.com/recloudstream/cloudstream/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "description": "A curated collection of CloudStream extensions",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/lutpong/cloudstream-extensions/builds/plugins.json"
+    ]
+}

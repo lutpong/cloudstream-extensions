@@ -1,0 +1,25 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/recloudstream/cloudstream/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "fileHash": "sha256-40495c8267d0ace149af85bad14c9d1d67b1850e39c4b2eb303e6ff592a210b8",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/lutpong/cloudstream-extensions",
+        "fileSize": 23529,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "CloudstreamUser"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama",
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "OppaDrama",
+        "description": "Nonton drama Korea, Jepang, China, Thailand, film, dan anime subtitle Indonesia dari OPPADRAMA",
+        "url": "https://raw.githubusercontent.com/lutpong/cloudstream-extensions/builds/OppaDrama.cs3",
+        "name": "OppaDrama"
+    }
+]
